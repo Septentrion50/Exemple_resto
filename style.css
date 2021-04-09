@@ -1,26 +1,38 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 h1 {
   color: red;
   text-align: center;
 }
 
+.card-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5c3;
+  background-color: #ffffe3;
   align-items: center;
   padding: 20px;
   border: 1px solid #c3c3e5;
   border-radius: 15px;
+  width: 15%;
 }
 
 .card-header {
+  width: 100%;
   text-align: center;
-  padding: 10px;
+  border-bottom: 1px solid #c3c3e5;
 }
 
-.card-body {
-  text-align: start;
-  padding: 10px;
+ul {
+  border: 2px solid red;
+  list-style: none;
 }
-
-
